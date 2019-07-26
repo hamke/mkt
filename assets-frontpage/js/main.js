@@ -39,10 +39,10 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'assets-frontpage/images/bg01.jpg': 'center',
-							'assets-frontpage/images/bg02.jpg': 'center',
-							'assets-frontpage/images/bg03.jpg': 'center',
-							'assets-frontpage/images/bg04.jpg': 'center'
+							'/assets-frontpage/images/bg01.jpg': 'center',
+							'/assets-frontpage/images/bg02.jpg': 'center',
+							'/assets-frontpage/images/bg03.jpg': 'center',
+							'/assets-frontpage/images/bg04.jpg': 'center'
 						},
 
 					// Delay.
