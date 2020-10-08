@@ -1,7 +1,8 @@
 var IMP = window.IMP; // 생략가능
 // IMP.init('imp21028697'); // hello@wp-talk.com (카카오페이)
-IMP.init('imp79611779'); // hello@ttmkt.com (카카오페이)
-// IMP.init('imp14840138'); // leden_online@naver.com ( 카카오페이 / 테스트 )
+// IMP.init('imp79611779'); // hello@ttmkt.com (카카오페이)
+// IMP.init('imp78149347'); // hello@chinatalk.net (카카오페이)
+IMP.init('imp14840138'); // leden_online@naver.com ( 카카오페이 / 테스트 )
 // IMP.init('imp90524050'); // the235style@yahoo.com ( 나이스페이 / 테스트 )
 
 function pay() {
