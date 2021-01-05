@@ -1,0 +1,385 @@
+body {
+  font-size: 1rem!important;
+  font-weight: 400!important;
+  color: #333!important;
+}
+
+a {
+  color: #545861;
+}
+
+.btn:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: none!important;
+}
+
+h3.widget-title {
+  font-size: 1.1rem!important;
+}
+
+#brand-image {
+  width: 20px;
+  height: auto;
+  padding-bottom: 1px;
+}
+
+#frontpage-notice .modal-header .title,
+#board-guideline .modal-header .title { letter-spacing: 1px; }
+
+#frontpage-notice .modal-body li,
+#board-guideline .modal-body li { padding-bottom: 0.5rem; }
+
+#frontpage-notice .modal-body b,
+#board-guideline .modal-body b { color: #333; }
+
+code {
+  display: block;
+  color: #555!important;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+
+.ad-below-list a {
+  text-decoration: none!important;
+}
+
+.cosmosfarm-members-account .avatar {
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  font-size: 0.9rem!important;
+}
+
+.dropdown-menu li {
+  margin-right: 0rem;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #787b84;
+  line-height: 1.8;
+  white-space: nowrap;
+}
+
+.navbar-collapse .dropdown li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+pre {
+  display: block;
+  padding: 1rem;
+  line-height: 1rem;
+  color: #555!important;
+  font-size: 87.5%;
+  color: #1a1a1a;
+  background-color: #f7f7f7;
+}
+
+.ticker-box .innerWrap .list {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ticker-box .innerWrap .list a {
+  text-decoration: none;
+}
+
+.form-control:focus {
+	border-color: #ccc;
+}
+
+#page-sub-header {
+  margin-top: 4rem;
+  color: #fff;
+}
+
+#page-sub-header h1,
+#page-sub-header i {
+  color: #fff!important;
+}
+
+#ticker .ticker-title {
+  color: #545861!important;
+}
+
+#kboard-document h1,
+#kboard-document h1 a,
+.kboard-inner-header .board-title .board-name,
+.kboard-inner-header .board-title .board-name a {
+  color: #545861!important;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+#kboard-document .kboard-details {
+  font-size: 0.8rem!important;
+}
+
+#kboard-document .kboard-details .details-board-name a {
+  text-decoration: none!important;
+}
+
+/* #kboard-document .kboard-content .content-view {
+  color: #1a1a1a!important;
+} */
+
+.kboard-inner-header .board-title {
+  display: inline-block;
+}
+
+#kboard-avatar-list .kboard-list table td.kboard-list-user {
+  width: 120px!important;
+}
+
+#kboard-avatar-list .kboard-list table td.kboard-list-date {
+  width: 80px!important;
+}
+
+#kboard-avatar-list .kboard-list tbody tr.kboard-list-selected {
+  /* font-weight: bold; */
+  background: #f1f1f1;
+}
+
+.card i,
+.card-header {
+  font-size: 1rem;
+  color: #545861!important;
+}
+
+.admin-bar .fixed-top {
+  top: 32px;
+}
+
+#content.site-content {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.custom-title-h1 {
+  text-align: center;
+}
+
+.row {
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+
+.bg-light {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 0px!important;
+  border-left: 0px!important;
+  border-bottom: 0px!important;
+  background-color: #fff !important;
+}
+
+@media screen and (max-width: 480px) {
+
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+  .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+  .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+  .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12,
+  .col, .col-auto, .col-xl, .col-xl-auto {
+    padding-right: 0!important;
+    padding-left: 0!important;
+  }
+
+  .navbar {
+    flex-direction: row-reverse!important;
+  }
+
+  .navbar-brand {
+    margin-right: 0!important;
+    /* padding-right: 2rem!important; */
+  }
+
+}
+
+.home .devider {
+  color: #bbb;
+}
+
+#main .card a {
+  text-decoration: none;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+#kboard-avatar-list .kboard-list tbody tr.kboard-list-notice {
+  background-color: #fafafa!important;
+}
+
+#kboard-avatar-latest table thead .kboard-latest-title {
+  font-size: 10px!important;
+}
+
+#kboard-avatar-latest table thead .kboard-latest-date {
+  font-size: 10px!important;
+}
+
+#feed-list {
+  font-size: 0.9rem;
+}
+
+#feed-list .table th, .table td {
+  padding: 0.5rem 0!important;
+}
+
+#feed-list table tbody tr:hover {
+  background-color: #fafafa;
+}
+#feed-list table tbody tr a {
+  text-decoration: none;
+}
+#feed-list .format-nowrap {
+  max-width: 100px !important;
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#feed-list table .channel-name {
+  font-size: 80%;
+}
+#feed-list table thead .feed-content,
+#feed-list table thead .channel-name,
+#feed-list table thead .feed-date {
+  padding-top: 0!important;
+}
+
+#feed-list table tbody .feed-date {
+  letter-spacing: 0px;
+  font-size: 80%;
+}
+
+#footer-widget .textwidget {
+  text-align: center!important;
+}
+
+.widget {
+  margin: 1em 0;
+  padding: 0.5em 0;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    border-radius: 50%;
+}
+
+#footer-banner {
+  position: fixed;
+  display: none;
+  bottom: 0px;
+  width: 100%;
+  max-height: 70px;
+  background: linear-gradient(70deg, #93278F, #00A99D, #93278F, #00A99D);
+  box-shadow: 0px 10px 20px 0px #333;
+  text-align: center;
+  z-index: 900;
+}
+
+#footer-banner a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer-banner .footer-promo-text {
+  position: relative;
+  margin: 1em;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.footer-text {
+  padding-bottom: 70px;
+}
+
+footer#colophon {
+  font-size: 100%!important;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+    max-width: 1180px!important;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .header-not-frontpage {
+    margin-top: 25px;
+  }
+  .buttonsearch {
+    top: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  #footer-banner .footer-promo-text br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .footer-text {
+    padding-bottom: 90px;
+  }
+  footer#colophon {
+    margin-bottom: 70px!important;
+  }
+  .header-not-frontpage {
+    margin-top: 20px;
+  }
+  #feed-list .table th, .table td {
+    padding: 1rem 0.5rem;
+  }
+  #feed-list table .channel-name {
+    display: none;
+  }
+  #feed-list table tbody .feed-date {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-not-frontpage {
+    margin-top: 10px;
+  }
+  .navbar .cosmosfarm-members-account img {
+    width: 16px;
+  }
+  #board-list-nav .nav-tabs .nav-item {
+    margin-right: 3px!important;
+  }
+  #feed-list .nav-tabs .nav-item {
+    margin-right: 3px!important;
+  }
+}
